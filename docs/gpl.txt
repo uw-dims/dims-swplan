@@ -1,0 +1,46 @@
+
+
+
+Here’s another example -
+
+https://github.com/ansible/ansible/issues/8864
+
+Fred.
+
+
+On Feb 14, 2016, at 2:50 PM, Fred Holt <fbholt62@gmail.com> wrote:
+
+> Hi David,
+>
+> Thank you for meeting up today. 
+>
+> Please accept that there is a 20-year history of arguments about the GPL, some of which led to the LGPL, etc.  Also, software licensing is a poor and lagging reflection of programming.
+>
+> The GPL was targeted at compiled executables.  If you use my GPL code in the makefile for your executable program, then your program and its modules also have to be released under the GPL.  That’s the spirit of this license.
+>
+> So — [[ and these examples do not have clear boundaries ]] - 
+> * if you compile a GPL module into your executable, then the executable should be released as GPL.  
+>   ( But the GPL code may just facilitate one “layer” of a complex program… hence the LGPL… )
+>
+> * if you invoke a GPL program in a shell - even with arguments - then the other levels of your larger program, above and below the shell that invokes the GPL program, can be released under a different license (e.g. BSD-3)
+>
+> Again - don’t panic - this is the place where law meets software.  It is anything but clear and current.  Look for a good boundary around any GPL code, that respects the spirit of the GPL.
+>
+> http://www.ifross.org/en/program-forks-gpl-licensed-program-system-or-vice-versa-call-derivative-work
+>
+>
+> Let’s meet up when you get back.
+>
+> Fred.
+>
+> Fred B. Holt
+> fbholt62@gmail.com
+> 206.853.6909
+>
+> www.linkedin.com/in/fbholt
+>
+>
+>
+
+
+
