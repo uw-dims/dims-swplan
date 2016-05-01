@@ -75,24 +75,21 @@ contracts to provide financial support for any further system integration
 efforts.
 
 
-.. _ci:
+.. _piscesnw:
 
-Critical Informatics and PISCES Northwest
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PISCES Northwest
+~~~~~~~~~~~~~~~~
 
-The Critical Informatics (CI) business model is complementary to the feature
-set of DIMS. The PI and the principal co-founder of CI (Mike Hamilton) have
-worked together on the concepts for regional collaborative incident response
-under various forms of DHS funding going back to 2008.
+A not-for-profit entity known as the Public Infrastructure Security
+Collaboration and Exchange System (PISCES-NW, for "North West") was recently
+formed. The Board of Directors has submitted a proposal to DHS to extend a
+regional SLTT security monitoring project (formerly known as "PRISEM").  Under
+this proposal, the PI will be engaged for a limited time in the intitial phase
+as a sub-contractor, focused on assisting with implemention of selected DIMS
+open source products as requested by PISCES-NW. One of the PISCES-NW project's
+objectives is to integrate DHS S&T-funded research products, which fits in line
+with values and objectives described in Section `introduction`_.
 
-Critical Informatics will be supporting the newly-formed not-for-profit
-entity known as the Public Infrastructure Security Collaboration
-and Exchange System (PISCES-NW, for "North West").
-
-The PI will be engaged for a limited period of time in the initial
-phase of the PISCES-NW contract project, focused on assisting
-with implemention of selected DIMS open source products as
-requested by PISCES-NW.
 
 .. _cri:
 

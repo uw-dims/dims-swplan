@@ -27,18 +27,13 @@ HSHQDC-13-C-B0013, referred to in this document as "the Contract").
    introduction
    licensingplan
    commercializationplan
+   license
 
 Contact:
 --------
 
 .. sectionauthor:: David Dittrich dittrich@u.washington.edu
 
-License
--------
-
 .. include:: <isonum.txt>
 
 Copyright |copy| 2014-2016 University of Washington. All rights reserved.
-
-.. include:: license.txt
-   :literal:

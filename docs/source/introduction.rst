@@ -3,8 +3,8 @@
 Introduction
 ============
 
-Value of the Project, Expected Outcomes, and Impacts
-----------------------------------------------------
+Value of the Project
+--------------------
 
 As described in the :ref:`dimsocd:dimsoperationalconceptdescription` document,
 the DIMS project has two primary expected outcomes: (1) an example platform for
@@ -24,6 +24,25 @@ source software integration project, or for use by an internal security
 operations group (or managed security service provider) to create an open
 source incident response capability.
 
+.. _expectedoutcomes:
+
+Expected Outcomes
+-----------------
+
+The primary outcome of the DIMS project is the publication of open source
+tools and documentation, following implementation of the components in
+a prototype deployment. A pilot deployment for the United States Secret
+Service to use for their Electronic Crimes Task Force (ECTF) program
+is also an outcome of this project. Another deployment of selecte
+DIMS products will be initiated for the PISCES-NW not-for-profit
+organization (see Section :ref:`piscesnw`).
+
+
+.. _impacts:
+
+Impacts
+-------
+
 The impact of the effort expended in this project goes beyond just implementing
 one instance of a set of open source service components for a single group. The
 model that was established can be replicated widely and improved upon by others
@@ -34,8 +53,10 @@ of several other efforts to address a similar set of goals and have reached out
 collaborative relationships that will have broad impact over time.
 
 
-The Product, the Problem it Solves, and Benefits
-------------------------------------------------
+.. _theproduct:
+
+The Product
+-----------
 
 The open source code and documentation produced during the life of this project
 are the primary product. They document the lessons learned, provide an
@@ -54,6 +75,11 @@ before success is achieved. Outreach activities, and collaboration attempts
 during the project to date have shown that language, pictures, shared
 experience, and a clear description of the problems and proposed solution are
 important (yet simultaneously a challenge to achieve.)
+
+.. _theproblem:
+
+The Problem it Solves
+---------------------
 
 The fundamental problem that this project aims to solve is to to bring
 capabilities of multiple open source products into a functioning whole. This is
@@ -95,6 +121,9 @@ setting up the development environment.
 .. _Deployment and operations: https://github.com/linuxfoundation/cii-best-practices-badge/blob/master/doc/security.md#deployment-and-operations
 .. _GitHub security policy: https://help.github.com/articles/github-security/
 .. _Heroku security policy: https://www.heroku.com/policy/security
+
+Benefits
+--------
 
 The benefit to those who chose to follow will be a faster and smoother journey
 than we experienced during the DIMS project period of performance, since all of
