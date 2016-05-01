@@ -33,7 +33,7 @@ The primary outcome of the DIMS project is the publication of open source
 tools and documentation, following implementation of the components in
 a prototype deployment. A pilot deployment for the United States Secret
 Service to use for their Electronic Crimes Task Force (ECTF) program
-is also an outcome of this project. Another deployment of selecte
+is also an outcome of this project. Another deployment of selected
 DIMS products will be initiated for the PISCES-NW not-for-profit
 organization (see Section :ref:`piscesnw`).
 
@@ -50,7 +50,8 @@ faced with the same set of challenges in developing an affordable and scalable
 incident response capability. Over the course of the project, we have learned
 of several other efforts to address a similar set of goals and have reached out
 (as much as time permits) to find common ground and try to develop
-collaborative relationships that will have broad impact over time.
+collaborative relationships that will have broad impact over time. This
+will be expanded upon in Section :ref:`commercializationplan`.
 
 
 .. _theproduct:
@@ -82,17 +83,12 @@ The Problem it Solves
 ---------------------
 
 The fundamental problem that this project aims to solve is to to bring
-capabilities of multiple open source products into a functioning whole. This is
-acheived by assembling all of the necessary components and instructions for
-building a distributed system with software development and operations
-("DevOps") features that support a modern software development and system
-integration team.
-
-One outcome of solving this problem is creating a model platform (or
-DevOps infrastructure) that can facilitate the secure integration of
-open source compronents that (in and of themselves) are often hard to
-deploy, and many times so insecurely implemented that they are effectively
-wide open to the internet.
+capabilities of multiple open source products into a functioning whole. We
+take a modular "platform" approach that allows for integrating chosen
+open source components into a coherent whole. This is achieved by assembling
+all of the necessary components and instructions for building a distributed
+system with software development and operations ("DevOps") features that
+support a modern software development and system integration team.
 
 Open source software makes up the foundation of the internet as we know it
 today. OpenSSH, OpenSSL, NTP, and GnuPG are examples of successful open source
@@ -116,6 +112,30 @@ detailed examples in the larger Criteria document, and links to working code to
 be used in development, but not working configurations or specific steps for
 setting up the development environment.
 
+Dr. Paul Vixie recently published a blog post, `Magical Thinking in Internet
+Security`_ in which he points out the problem of complexity in implementing
+security solutions, especially one's designed to detect and respond to
+computer intrusions (while not being the *source* of intrusions, due to
+security weaknesses in these complex systems that are not addressed
+by the limited resources often invested in implementing these systems.
+He starts his conclusion with this statement: "Increased complexity without
+corresponding increases in understanding would be a net loss to a buyer."
+DIMS products are intended to help shift the equation put forward
+by Vixie, by helping make a less complex, more transparent, and easier
+to secure platform than may otherwise be produced by trying to
+leverage open source security tools from scratch.
+
+.. _Magical Thinking in Internet Security: https://www.farsightsecurity.com/Blog/20160428-vixie-magicalthinking/
+
+The products of the DIMS project provide a working and documented model
+platform (or DevOps infrastructure) that can facilitate the secure integration
+of open source components that (in and of themselves) are often hard to
+deploy, and many times so insecurely implemented that they are effectively wide
+open to the internet. This not only solves some of the infrastructure problems
+alluded to by the Linux Foundation, but also addressing Vixie's example of
+supporting organizations wanting to use open source security tools in concert
+to address their trusted information sharing and security operations needs.
+
 .. _The Core Infrastructure Initiative: https://www.coreinfrastructure.org
 .. _Security of the development environment: https://github.com/linuxfoundation/cii-best-practices-badge/blob/master/doc/security.md#security-of-the-development-environment
 .. _Deployment and operations: https://github.com/linuxfoundation/cii-best-practices-badge/blob/master/doc/security.md#deployment-and-operations
@@ -126,7 +146,7 @@ Benefits
 --------
 
 The benefit to those who chose to follow will be a faster and smoother journey
-than we experienced during the DIMS project period of performance, since all of
+than we experienced during the DIMS project period of performance. All of
 the hurdles, mistakes, struggles, and ultimately the many successes and
 achievements in distributed system engineering that were not easily found in
 the open source community. The requirements document security practices and
@@ -138,5 +158,5 @@ further improve the security of the system through feedback about weaknesses
 and deficiencies that crept in during development and deployment.)
 
 
-.. [MBLT13] Douglas Maughan, David Balenson, Ulf Lindqvist, and Zachary Tudor. Crossing the "valley of death": Transitioning cybersecurity research into practice. Security Privacy, IEEE, 11(2):14–23, 2013.
+.. [MBLT13] Douglas Maughan, David Balenson, Ulf Lindqvist, and Zachary Tudor. Crossing the "Valley of Death": Transitioning Cybersecurity Research into Practice. IEEE Security & Privacy, 11(2):14–23, 2013.
 

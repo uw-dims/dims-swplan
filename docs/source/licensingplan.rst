@@ -11,10 +11,10 @@ Compatibility of Open Source Licenses
 -------------------------------------
 
 Wikipedia has a good description of what constitutes a
-`Permissive free software licence`_, which is a concern when integrating
+`Permissive free software licence`_ (sic), which is a concern when integrating
 open source projects.  Figure :ref:`licensecompatibility` from this page
-is included here (under the terms of Creative Commons “Attribution-Share
-Alike 3.0 License”).
+is included here (under the terms of Creative Commons "Attribution-Share
+Alike 3.0 License").
 
 .. _licensecompatibility:
 
@@ -52,16 +52,32 @@ Considerations for release of DIMS project source code
 
 .. attention::
 
-    This subsection incudes information obtained in conversations with Fred
+    This subsection includes information obtained in conversations with Fred
     Holt, who has worked on intellectual property and technology transfer
     issues with the University of Washington Office of Technology Transfer.
-    
+
+    The principal issue that Fred Holt stressed in these conversations has
+    to do with *compatibility* of licenses, and the use of open source software
+    that was released under a *restrictive* license within a larger project
+    whose source is released under a *permissive* license.
+
 ..
 
+Software licenses work in two directions: Source code is released by the 
+copyright holder, along with restrictions and permissions on how it is to
+be used (or re-used); the recipient of open source software, wishing to
+re-use it and build a new or derived work that they intend to release must
+also chose a license under which their work is released, but must also
+adhere to the restrictions and permissions of the work they are basing
+their work upon. This raises issues of *compatibility* of terms in both
+licenses that an open source development team needs to be aware of
+and respect.
 
-The GPL has over 20 years of history of controversy for its terms and
-conditions.  Some of this controversy resulted in a slightly less restrictive
-and narrower license known as the Lesser GPL (LGPL).
+To understand the issues surrounding compatibility (or more importantly from a
+legal perspective, **incompatibility**) of open source licenses, a little
+history is necessary.  The GPL has over 20 years of history of controversy for
+its terms and conditions.  Some of this controversy resulted in a slightly less
+restrictive and narrower license known as the Lesser GPL (LGPL).
 
 Part of the controversy over the GPL surrounds the time in which it came to
 exist and the style of programming languages at the time that were heavily
@@ -105,7 +121,7 @@ to DIMS code:
   .. note::
 
      The exception is the case where the GPL code may just facilitate
-     one “layer” of a complex program, where the LGPL is more applicable.
+     one "layer" of a complex program, where the LGPL is more applicable.
 
   ..
 

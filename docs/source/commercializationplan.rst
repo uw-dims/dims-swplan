@@ -9,6 +9,9 @@ products.
 
 .. _intellectualProperty:
 
+Intellectual Property
+---------------------
+
 Under the terms of the Contract, Section C.3.4, the products of this project
 are to be released as open source under a selected open source license. As
 described in Section :ref:`approvedLicense`, this license is the
@@ -19,9 +22,13 @@ Berkeley Three-Part license.
 Technology Transfer
 -------------------
 
-No intellectual property disclosures to the University of Washington will
-result from this project. All technology tranfer will result from uniform
+As no intellectual property disclosures to the University of Washington will
+result from this project. All technology transfer will result from uniform
 access to the public of the released open source code and documentation.
+The following are some of the organizations that have been approached about
+using and continuing to develop and promote the open source products from
+resulting from this contract.
+
 
 .. _csirtgadgets:
 
@@ -30,7 +37,7 @@ CSIRT Gadgets Foundation
 
 Conversations with Wes Young and Gabe Iovino of the `CSIRT Gadgets Foundation`_
 indicate that their foundation may be a good place for forks of the DIMS code,
-configruation, and documentation repositories to be housed and maintained
+configuration, and documentation repositories to be housed and maintained
 similarly to the way the `Collective Intelligence Framework`_ is maintained.
 Additionally, there are opportunities working with the foundation to
 enhance CIF using DIMS products and lessons learned.
@@ -55,21 +62,6 @@ help integrate DIMS components with the new (and soon-to-be publicly released
 **Trident** portal system) and appreciate feedback from red teaming done in
 conjunction with this project.
 
-Dr. Paul Vixie recently published a blog post, `Magical Thinking in Internet
-Security`_ in which he points out the problem of complexity in implementing
-security solutions, especially one's designed to detect and respond to
-computer intrusions (while not being the *source* of intrusions, due to
-security weaknesses in these complex systems that are not addressed
-by the limited resources often invested in implementing these systems.
-He starts his conclusion with this statement: "Increased complexity without
-corresponding increases in understanding would be a net loss to a buyer."
-DIMS products are intended to help shift the equation put forward
-by Vixie, by helping make a less complex, more transparent, and easier
-to secure platform than may otherwise be produced by trying to
-leverage open source security tools from scratch.
-
-.. _Magical Thinking in Internet Security: https://www.farsightsecurity.com/Blog/20160428-vixie-magicalthinking/
-
 Further conversations with Farsight will explore possible interest in grants or
 contracts to provide financial support for any further system integration
 efforts.
@@ -84,11 +76,11 @@ A not-for-profit entity known as the Public Infrastructure Security
 Collaboration and Exchange System (PISCES-NW, for "North West") was recently
 formed. The Board of Directors has submitted a proposal to DHS to extend a
 regional SLTT security monitoring project (formerly known as "PRISEM").  Under
-this proposal, the PI will be engaged for a limited time in the intitial phase
-as a sub-contractor, focused on assisting with implemention of selected DIMS
+this proposal, the PI will be engaged for a limited time in the initial phase
+as a sub-contractor, focused on assisting with implementation of selected DIMS
 open source products as requested by PISCES-NW. One of the PISCES-NW project's
 objectives is to integrate DHS S&T-funded research products, which fits in line
-with values and objectives described in Section `introduction`_.
+with values and objectives described in Section :ref:`introduction`.
 
 
 .. _cri:
