@@ -7,7 +7,8 @@ DIMS Commercialization and Open Source Licensing Plan v |release|
 =================================================================
 
 This document (version |release|) describes the Commercialization
-and Open Source Licensing Plan for the DIMS project.
+and Open Source Licensing Plan for the DIMS project (DHS Contract
+HSHQDC-13-C-B0013, referred to in this document as "the Contract").
 
 .. attention::
 

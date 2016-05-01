@@ -29,6 +29,7 @@ Alike 3.0 License”).
 
 .. _Permissive free software licence: https://en.wikipedia.org/wiki/Permissive_free_software_licence
 
+.. _approvedLicense:
 
 University approved release license
 -----------------------------------
