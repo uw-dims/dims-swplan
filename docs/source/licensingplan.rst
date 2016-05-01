@@ -36,13 +36,11 @@ University approved release license
 
 Initial guidance from Peggy Hartman indicated that University of Washington
 preferred that software produced by the DIMS team be released under
-the Berkeley Three-Part license (also known as *BSD-3*).
+the Berkeley Three-Part license (also known as *BSD-3*).  This is a simple
+license that falls into the *permissive* category of open source licenses.
 
-.. include:: license.txt
-   :literal:
+For a copy of the license, see Section :ref:`license`.
 
-This is a simple license that falls into the *permissive* category of open
-source licenses.
 .. todo::
 
     Add graphic Fred sent me about comparison of licenses.
@@ -121,9 +119,6 @@ to DIMS code:
     spirit of the GPL.
 
   ..
-
-
-* `Ansible issue #8864`_
 
 .. _Is a program that forks a GPL-licensed program via a system or vice versa call derivative work?: http://www.ifross.org/en/program-forks-gpl-licensed-program-system-or-vice-versa-call-derivative-work
 .. _Ansible issue #8864: https://github.com/ansible/ansible/issues/8864

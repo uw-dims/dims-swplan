@@ -21,16 +21,12 @@ HSHQDC-13-C-B0013, referred to in this document as "the Contract").
 
 ..
 
-Contents:
-=========
-
 .. toctree::
    :maxdepth: 2
 
    introduction
    licensingplan
    commercializationplan
-   license
 
 Contact:
 --------
