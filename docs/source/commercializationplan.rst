@@ -57,7 +57,7 @@ Farsight Security
 Farsight Security has expressed an interest in supporting continued development
 of DIMS components with letters of support and other political and social acts,
 but desires to be a client in future collaborations rather than a volunteer
-contributor. They have been very generous in making architectural changes that
+contributor. Farsight has been very generous in making architectural changes that
 help integrate DIMS components with the new (and soon-to-be publicly released
 **Trident** portal system) and appreciate feedback from red teaming done in
 conjunction with this project.

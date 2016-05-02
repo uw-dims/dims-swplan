@@ -10,11 +10,10 @@ Fred Holt in 2015 and 2016.
 Compatibility of Open Source Licenses
 -------------------------------------
 
-Wikipedia has a good description of what constitutes a
-`Permissive free software licence`_ (sic), which is a concern when integrating
-open source projects.  Figure :ref:`licensecompatibility` from this page
-is included here (under the terms of Creative Commons "Attribution-Share
-Alike 3.0 License").
+Wikipedia describes a `Permissive free software licence`_ (sic), which is a
+concern when integrating open source projects.  Figure
+:ref:`licensecompatibility` from this page is included here (under the terms of
+Creative Commons "Attribution-Share Alike 3.0 License").
 
 .. _licensecompatibility:
 
@@ -67,7 +66,7 @@ Software licenses work in two directions: Source code is released by the
 copyright holder, along with restrictions and permissions on how it is to
 be used (or re-used); the recipient of open source software, wishing to
 re-use it and build a new or derived work that they intend to release must
-also chose a license under which their work is released, but must also
+also choose a license under which their work is released, but must also
 adhere to the restrictions and permissions of the work they are basing
 their work upon. This raises issues of *compatibility* of terms in both
 licenses that an open source development team needs to be aware of
@@ -86,9 +85,9 @@ running a *compiler* on the source code to produce *object files* and *object
 libraries*, running a linker on the *object files and libraries* to produce an
 *executable binary image* (also commonly called an *executable* or *EXE* file).
 The GPL was targeted at these compiled executables, so if you used a
-``Makefile`` to compile and link source code with libraries released under the
-GPL, then under the spirit of the GPL's terms, your program and its modules
-also had to be released under the GPL.
+``Makefile`` (via the ``make`` command) to compile and link source code with
+libraries released under the GPL, then under the spirit of the GPL's terms,
+your program and its modules also had to be released under the GPL.
 
 In today's programming environment, things are much more complicated. Languages
 like Python act more like interpreters than compilers, though they do produce a
@@ -100,7 +99,7 @@ intermediary binary format file that is executed by a bytecode interpreter
 known as the Java Virtual Machine (JVM), rather than being linked into a
 stand-alone executable, with modules used by the program.
 
-This is complicated even further by following the Unix philosophy of programs
+This is complicated further as a result of the Unix philosophy of programs
 being simple and doing one thing very well, and those program being used with
 pipelining and other execution invocation mechanisms to compose these simple
 functions into higher-level more complex functionality, which can then be
@@ -108,7 +107,10 @@ further combined, and on and on. This raises questions like, "`Is a program
 that forks a GPL-licensed program via a system or vice versa call derivative
 work?`_" and -- specifically to the DIMS project, which uses Ansible -- "[Does]
 the GPL license imply that my [Ansible] plugins are also GPL?" (see `Ansible
-issue #8864`_)
+issue #8864`_) According to Holt and these commenters, simply using GPL code
+does not always trigger the "derivative work" clause, but care must still
+be taken to be clear about respect for the intent of these restrictive
+licenses.
 
 Given the spirit of intent of the GPL, the following guidance will be applied
 to DIMS code:
