@@ -23,10 +23,10 @@ Technology Transfer
 -------------------
 
 As no intellectual property disclosures to the University of Washington will
-result from this project. All technology transfer will result from uniform
+result from this project, all technology transfer will result from uniform
 access to the public of the released open source code and documentation.
 The following are some of the organizations that have been approached about
-using and continuing to develop and promote the open source products from
+using, continuing to develop, or promoting the open source products
 resulting from this contract.
 
 
