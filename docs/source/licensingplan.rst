@@ -40,9 +40,25 @@ license that falls into the *permissive* category of open source licenses.
 
 For a copy of the license, see Section :ref:`license`.
 
-.. todo::
+.. _sourceSeparationGold:
 
-    Add graphic Fred sent me about comparison of licenses.
+.. figure:: images/FOSS_Licensing_1.png
+   :alt: Option 'Gold' strategy for handling source code and selecting release license
+   :width: 70%
+   :align: center
+
+   'Option Gold' strategy for handling source code and selecting release license
+
+..
+
+.. _sourceSeparationPurple:
+
+.. figure:: images/FOSS_Licensing_2.png
+   :alt: Option 'Purple' strategy for handling source code and selecting release license
+   :width: 70%
+   :align: center
+
+   'Option Purple' strategy for handling source code and selecting release license
 
 ..
 
