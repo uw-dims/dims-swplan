@@ -33,8 +33,9 @@ The primary outcome of the DIMS project is the publication of open source tools
 and documentation, following implementation of the components in a prototype
 deployment. A pilot deployment for the United States Secret Service to use for
 their Electronic Crimes Task Force (ECTF) program is also an outcome of this
-project. The PISCES-NW not-for-profit organization will deploy selected DIMS
-components DIMS for their use (see Section :ref:`piscesnw`).
+project. DIMS project outputs are being evaluated by the PISCES-NW
+not-for-profit organization for use in the Pacific Northwest (see Section
+:ref:`piscesnw`).
 
 
 .. _impacts:
