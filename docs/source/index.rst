@@ -11,6 +11,7 @@ and Open Source Licensing Plan for the DIMS project (DHS Contract
 HSHQDC-13-C-B0013, referred to in this document as "the Contract").
 
 .. toctree::
+   :numbered:
    :maxdepth: 2
 
    introduction
