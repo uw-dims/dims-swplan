@@ -38,7 +38,7 @@ extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.graphviz',
     'sphinx.ext.coverage',
-    'sphinx.ext.ifconfig', 
+    'sphinx.ext.ifconfig',
     'sphinx.ext.viewcode'
 ]
 
