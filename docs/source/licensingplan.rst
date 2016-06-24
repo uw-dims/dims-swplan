@@ -12,7 +12,7 @@ Compatibility of Open Source Licenses
 
 Wikipedia describes a `Permissive free software licence`_ (sic), which is a
 concern when integrating open source projects.  Figure
-:ref:`licensecompatibility` from this page is included here (under the terms of
+:numref:`licensecompatibility` from this page is included here (under the terms of
 Creative Commons "Attribution-Share Alike 3.0 License").
 
 .. _licensecompatibility:
