@@ -39,7 +39,8 @@ extensions = [
     'sphinx.ext.graphviz',
     'sphinx.ext.coverage',
     'sphinx.ext.ifconfig',
-    'sphinx.ext.viewcode'
+    'sphinx.ext.viewcode',
+    'sphinx.ext.imgmath',
 ]
 
 # Set numeric referencing of figures
