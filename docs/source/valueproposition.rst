@@ -105,7 +105,7 @@ up.  The two primary outcomes of this effort are:
 The :ref:`dimssr:dimssystemrequirements` documents security practices and
 features that we have incorporated to the greatest extent possible, in a way
 that can be improved over time in a modular manner. The system automation and
-continuous integration/continuous deployment features help in implementing and
+continuous integration/continuous deployment (CI/CD) features help in implementing and
 maintaining a secure system. (Red team application penetration testing will
 further improve the security of the system through feedback about weaknesses
 and deficiencies that crept in during development and deployment.)
@@ -142,14 +142,23 @@ it can be reduced from taking hours or days per system to just a few minutes of
 effort. If that task has to be repeated dozens (or possibly hundreds) of times,
 the cost savings can be significant.
 
-The DIMS team created and used a continuous integration/continuous delivery
-model for taking software source code, system automation instructions, software
+The DIMS team created and used a CI/CD model using `Git`_, `Jenkins CI`_,
+and `Ansible`_
+for taking software source code, system automation instructions, software
 configuration, and documentation, to build a prototype for an open source
 software integration project. The resulting product can be used by an internal
 security operations group (or managed security service provider) to create an
 open source incident response capability. It also provides many of the elements
 called for in the CII `Badge Program`_ from the `GitHub Security`_ and `Heroku
 Security`_ policies.
+
+.. note::
+
+    To see more detail about the full set of tools, techniques, and
+    tasks that DIMS team members were expected to know or learn, see
+    :ref:`dimsjds:dimsjobdescriptions`.
+
+..
 
 The impact of the effort expended in this project goes beyond implementing one
 set of open source service components for a single group. This model can be
@@ -380,6 +389,9 @@ dashboard, portal, etc.) that is specified in
 .. _ELK stack: http://www.elasticsearch.org/overview/
 .. _RabbitMQ: http://www.rabbitmq.com/
 .. _GRR Rapid Response: https://github.com/google/grr
+.. _Git: http://git-scm.com
+.. _Jenkins CI: http://jenkins-ci.org/
+.. _Ansible: http://www.ansible.com/get-started
 
 
 .. [Vix16] Paul Vixie. Magical Thinking in Internet Security. https://www.farsightsecurity.com/Blog/20160428-vixie-magicalthinking/, April 2016.
