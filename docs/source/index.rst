@@ -15,6 +15,7 @@ HSHQDC-13-C-B0013, referred to in this document as "the Contract").
    :maxdepth: 2
 
    introduction
+   valueproposition
    licensingplan
    commercializationplan
    license
