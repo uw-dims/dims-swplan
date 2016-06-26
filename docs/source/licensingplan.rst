@@ -28,6 +28,7 @@ Creative Commons "Attribution-Share Alike 3.0 License").
 
 .. _Permissive free software licence: https://en.wikipedia.org/wiki/Permissive_free_software_licence
 
+
 .. _approvedLicense:
 
 University approved release license
@@ -39,28 +40,6 @@ the Berkeley Three-Part license (also known as *BSD-3*).  This is a simple
 license that falls into the *permissive* category of open source licenses.
 
 For a copy of the license, see Section :ref:`license`.
-
-.. _sourceSeparationGold:
-
-.. figure:: images/FOSS_Licensing_1.png
-   :alt: Option 'Gold' strategy for handling source code and selecting release license
-   :width: 70%
-   :align: center
-
-   'Option Gold' strategy for handling source code and selecting release license
-
-..
-
-.. _sourceSeparationPurple:
-
-.. figure:: images/FOSS_Licensing_2.png
-   :alt: Option 'Purple' strategy for handling source code and selecting release license
-   :width: 70%
-   :align: center
-
-   'Option Purple' strategy for handling source code and selecting release license
-
-..
 
 Considerations for release of DIMS project source code
 ------------------------------------------------------
@@ -128,6 +107,9 @@ does not always trigger the "derivative work" clause, but care must still
 be taken to be clear about respect for the intent of these restrictive
 licenses.
 
+Abiding the Spirit of Restrictive Licenses
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Given the spirit of intent of the GPL, the following guidance will be applied
 to DIMS code:
 
@@ -147,12 +129,81 @@ to DIMS code:
   levels of the larger program, above and below the shell that invokes the
   GPL program, can be released under a different license (e.g. BSD-3)
 
-  .. note::
+  .. attention::
 
-    Look for a good boundary around any GPL code, which respects the
-    spirit of the GPL.
+    While developing and integrating open source products, it is important to
+    not only be aware of code released under GPL, but also look for a good
+    boundary around GPL licensed code that respects the spirit of the license.
 
   ..
+
+Implementing separation in source code
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Fred Holt described two options (*Gold* and *Purple*, two arbitrarily chosen
+colors that have *nothing* to do with the University of Washington's school
+colors) for handling licensing text and notification in source code repositories.
+
+:numref:`sourceSeparationGold` (*Option Gold*) shows three different source
+directories:
+
+  * Left side: BSD Three-Part licensed code using a common header ``hdr_bsd``
+
+  * Middle: "BSD (from Apache with notice)" using a common header ``hdr_bsd_from_apache``
+
+  * Right side: Apache 2 licensed source code using a common header ``hdr_apache``
+
+.. _sourceSeparationGold:
+
+.. figure:: images/FOSS_Licensing_1.png
+   :alt: Option 'Gold' strategy for handling source code and selecting release license
+   :width: 70%
+   :align: center
+
+   'Option Gold' strategy for handling source code and selecting release license
+
+..
+
+This option is for dealing with primarily new BSD-3 code that relies in
+part on Apache 2 source code that has been modified to some degree. The degree
+to which is has been modified, while not a clear black-and-white determination,
+informs whether the derived source should be released under the original
+license of the source work (i.e., Apache 2), or under the desired Berkeley
+Three-Part license.
+
+* The middle section is for *significant mods* to the original code.  An
+  example of a minor modification would be renaming variables to match naming
+  conventions used in the DIMS project and changing values to brand the
+  resulting run-time interfaces to match DIMS branding.
+
+* The right section is for *minor mods* to the code.  A major modification
+  would be fundamentally altering functions, classes, or adding substantial new
+  code.
+
+Either way, the original code is clearly identified as being distinct
+from newly written code, the author of the code is acknowledged, and a
+notice is included that the major work is derived from existing code
+and the license under which that code was originally released.
+
+:numref:`sourceSeparationPurple` (*Option Purple*) shows how Apache 2 licensed
+code (kept separate on the right side of the figure) is included unmodified in
+a separate directory that isolates it from DIMS code with BSD (kept separate on
+the left). The *new works* code, for example sub-classes that inherit from
+parent classes in the Apache 2 code base, are shown within the BSD box. The
+repository is then released with the original license from the Apache 2 code
+base and a note that the major work is BSD-3 that uses Apache 2 components
+(along with references to where the code was originally obtained.)
+
+.. _sourceSeparationPurple:
+
+.. figure:: images/FOSS_Licensing_2.png
+   :alt: Option 'Purple' strategy for handling source code and selecting release license
+   :width: 70%
+   :align: center
+
+   'Option Purple' strategy for handling source code and selecting release license
+
+..
 
 .. _Is a program that forks a GPL-licensed program via a system or vice versa call derivative work?: http://www.ifross.org/en/program-forks-gpl-licensed-program-system-or-vice-versa-call-derivative-work
 .. _Ansible issue #8864: https://github.com/ansible/ansible/issues/8864
