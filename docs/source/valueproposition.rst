@@ -3,16 +3,70 @@
 The Value Proposition
 =====================
 
+As mentioned in :ref:`introduction`, many of the products and services
+available in today's enterprise cybersecurity market have too many zeros in
+their total price. Nobody likes paying taxes, so local government can't
+afford expensive products or managed security services. Volunteers developing
+open source software don't want to give up both their time *and* the contents of
+their savings accounts.
+
+This section discusses the *value proposition* for the products of the
+DIMS project.
+
+
 The Need
 --------
 
-Good security is based on good system administration.  Organizations need to
-have strong system administration in order to have a secure foundation for
-their operations. Paul Vixie [Vix16]_ estimates that 2/3 of the cost of
-implementing a FOSS security solution is dealing with the complexities of
-implementation just described.  "Increased complexity without corresponding
-increases in understanding would be a net loss to a buyer," according
-to Vixie.
+You can't have good system security without good system administration.
+Organizations need to have strong system administration skills in order to have
+a secure foundation for their operations. That 1/3 of attacks due to mistakes
+and misconfigurations identified in Verizon's DBIR reflects a painful
+reality. And 100% of those breaches occurred in companies who employ humans.
+
+Seriously, all humans make mistakes, or miss things. Or they may not know
+better when trying to just figure out how to get their job done and blindly
+follow someone's lead, opening themselves and their organization up to a major
+security hole (as seen in :numref:`curl2sudo` from `Don't Pipe to your
+Shell`_).
+
+.. _curl2sudo:
+
+.. figure:: images/curl-sudo.png
+   :alt: Piping insecure content directly into a privileged shell
+   :width: 50%
+   :align: center
+
+   Piping insecure content directly into a privileged shell
+
+..
+
+Mistakes are easier to make in situations where it is difficult to
+see what is going on, or where someone is forced to deal with something
+new that they have never dealt with before and have little expertise.
+Paul Vixie has described the pain (in terms of operations cost and impact on
+security posture) that results from *complexity* in today's distributed
+systems and security products. [Vix16]_
+
+.. pull-quote::
+
+    *Increased complexity without corresponding increases in understanding
+    would be a net loss to a buyer. [...]*
+
+    *The TCO of new technology products and services, including
+    security-related products and services, should be fudge-factored by at
+    least 3X to account for the cost of reduced understanding. That extra 2X is
+    a source of new spending: on training, on auditing, on staff growth and
+    retention, on in-house integration.*
+
+..
+
+As knowledge and experience increase, the quality of work output increases and
+the errors and omissions decrease.  Finding and procuring the talent necessary
+to operate at the highest level, however, is neither easy, fast, nor cheap.
+
+This all begs the question, "What can our organization do bring the
+capabilities of multiple open source products into a functioning whole with the
+least amount of pain and best operating security outcome?"
 
 
 Our Approach
@@ -24,17 +78,29 @@ development and secure system operations. The DIMS team (now implementing the
 third iteration of some of the core elements) has experienced the pain of this
 process, which will reduce the cost for those who adopt our methodology.
 
-The DIMS project brings multiple FOSS tools together in a reference model
-designed to be built securely from the ground up.  The two primary outcomes of
-this effort are (1) an example platform for building a complex integrated open
-source system for computer security incident response released as open source
-software and documentation, and (2) transitioning this platform into the public
-sector to support operational needs of State, Local, Territorial, and Tribal
-(SLTT) government entities.  DIMS project outputs are being evaluated by the
-PISCES-NW not-for-profit organization for use in the Pacific Northwest (see
-Section :ref:`piscesnw`).  The latest modification to the contract includes a
-pilot deployment for use by the United States Secret Service for their
-Electronic Crimes Task Force (ECTF) membership.
+The DIMS project brings together multiple free/libre open source software
+(FOSS) tools in a reference model designed to be built securely from the ground
+up.  The two primary outcomes of this effort are:
+
+#. An example platform for building a complex integrated open source system for
+   computer security incident response released as open source software and
+   documentation.  These products provide a working and documented model
+   platform (or DevOps infrastructure) that can facilitate the secure
+   integration of open source components that (in and of themselves) are often
+   hard to deploy, and often are so insecurely implemented that they are
+   effectively wide open to the internet. This not only solves some of the
+   infrastructure problems alluded to by the Linux Foundation, but also
+   addressing Vixie's example of supporting organizations wanting to use open
+   source security tools in concert to address their trusted information
+   sharing and security operations needs.
+
+#. Transitioning this platform into the public sector to support operational
+   needs of State, Local, Territorial, and Tribal (SLTT) government entities.
+   DIMS project outputs are being evaluated by the PISCES-NW not-for-profit
+   organization for use in the Pacific Northwest (see Section :ref:`piscesnw`).
+   The latest modification to the contract includes a pilot deployment for use
+   by the United States Secret Service for their Electronic Crimes Task Force
+   (ECTF) membership.
 
 The :ref:`dimssr:dimssystemrequirements` documents security practices and
 features that we have incorporated to the greatest extent possible, in a way
@@ -44,6 +110,15 @@ maintaining a secure system. (Red team application penetration testing will
 further improve the security of the system through feedback about weaknesses
 and deficiencies that crept in during development and deployment.)
 
+.. admonition:: Golden nugget
+
+   Over two decades of system administration and security operations experience
+   underlies the architectural model that we have been researching, developing,
+   implementing, and documenting.  The barrier to entry is the amount of time
+   and learning necessary to acquire this same expertise in order to be
+   competitive.
+
+..
 
 .. _benefittocustomers:
 
@@ -61,7 +136,7 @@ source tools as needed, saving a large part of the typical :math:`2x` to
 :math:`3x` implementation cost in system administration and operations cited by
 Vixie. We enable this by helping make a less complex, more transparent, source
 controlled, and easier to secure open source platform than may otherwise be
-produced by someone leveraging mulitple unfamiliar open source security tools
+produced by someone leveraging multiple unfamiliar open source security tools
 from scratch.
 
 The DIMS team created and used a continuous integration/continuous delivery
@@ -88,34 +163,6 @@ capability.
     :ref:`commercializationplan`.
 
 ..
-
-.. _theproblem:
-
-The Problem it Solves
----------------------
-
-.. todo::
-
-    Merge this into above sections.
-
-..
-
-The fundamental problem that this project aims to solve is to bring
-capabilities of multiple open source products into a functioning whole. We
-take a modular *platform* approach that allows for integrating chosen
-open source components into a coherent whole. This is achieved by assembling
-all of the necessary components and instructions for building a distributed
-system with software development and operations ("DevOps") features that
-support a modern software development and system integration team.
-
-The products of the DIMS project provide a working and documented model
-platform (or DevOps infrastructure) that can facilitate the secure integration
-of open source components that (in and of themselves) are often hard to
-deploy, and often are so insecurely implemented that they are effectively wide
-open to the internet. This not only solves some of the infrastructure problems
-alluded to by the Linux Foundation, but also addressing Vixie's example of
-supporting organizations wanting to use open source security tools in concert
-to address their trusted information sharing and security operations needs.
 
 Competition and Alternatives
 ----------------------------
@@ -213,7 +260,7 @@ not the way Docker containers are intended to implement scalable microservices,
 but it does provide a very easy way to see a demonstration instance of MozDef).
 The manual instructions are more elaborate and must be followed carefully
 (including considering the admonitions related to security, e.g., "Configure
-your security group to open the ports you need. Keep in mind that it’s probably
+your security group to open the ports you need. Keep in mind that it's probably
 a bad idea to have a public facing elasticsearch.")
 
 
@@ -312,6 +359,7 @@ dashboard, portal, etc.) that is specified in
 
 .. References and footnotes follow.
 
+.. _Don't Pipe to your Shell: https://www.seancassidy.me/dont-pipe-to-your-shell.html
 .. _Badge Program: https://www.coreinfrastructure.org/programs/badge-program
 .. _GitHub Security: https://help.github.com/articles/github-security/
 .. _Heroku Security: https://www.heroku.com/policy/security
