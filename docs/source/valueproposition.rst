@@ -132,12 +132,15 @@ equation described by Vixie, which can be expressed this way:
 
 The benefit to customers is maximized by the ability to construct and operate a
 secure incident response monitoring platform, expand it with additional open
-source tools as needed, saving a large part of the typical :math:`2x` to 
-:math:`3x` implementation cost in system administration and operations cited by
+source tools as needed, saving a large part of the :math:`2x` multiplier in
+implementation cost in system administration and operations overhead cited by
 Vixie. We enable this by helping make a less complex, more transparent, source
 controlled, and easier to secure open source platform than may otherwise be
 produced by someone leveraging multiple unfamiliar open source security tools
-from scratch.
+from scratch. That means standing up a new server and adding new services to
+it can be reduced from taking hours or days per system to just a few minutes of
+effort. If that task has to be repeated dozens (or possibly hundreds) of times,
+the cost savings can be significant.
 
 The DIMS team created and used a continuous integration/continuous delivery
 model for taking software source code, system automation instructions, software
