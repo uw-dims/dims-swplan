@@ -22,12 +22,21 @@ Berkeley Three-Part license.
 Technology Transfer
 -------------------
 
-As no intellectual property disclosures to the University of Washington will
-result from this project, all technology transfer will result from uniform
-access to the public of the released open source code and documentation.
-The following are some of the organizations that have been approached about
-using, continuing to develop, or promoting the open source products
-resulting from this contract.
+No intellectual property disclosures to the University of Washington will
+result from this project. All technology transfer will result from uniform
+public access to the released open source code and documentation.
+That said, getting the open source products resulting from this contract to be
+widely used will not be simple, or easy. As Maughan *et al* [MBLT13]_ discuss,
+projects do not sell themselves and many attempts may be necessary (some
+resulting in failure) before success is achieved.
+
+Outreach activities, and collaboration attempts during the project to date have
+shown that language, pictures, shared experience, and a clear description of
+the problems and proposed solution are important (yet simultaneously a
+challenge to achieve.) Still, the conversations we have had with multiple
+organizations are promising.  Following sections list some of the organizations
+that have been approached about using, continuing to develop, or promoting the
+open source products resulting from this contract.
 
 
 .. _csirtgadgets:
@@ -57,14 +66,15 @@ Farsight Security
 Farsight Security has expressed an interest in supporting continued development
 of DIMS components with letters of support and other political and social acts,
 but desires to be a client in future collaborations rather than a volunteer
-contributor. Farsight has been very generous in making architectural changes that
-help integrate DIMS components with the new (and soon-to-be publicly released
-**Trident** portal system) and appreciate feedback from red teaming done in
-conjunction with this project.
+contributor.  Further conversations with Farsight may explore possible interest
+in grants or contracts to provide financial support for further system
+integration efforts.
 
-Further conversations with Farsight will explore possible interest in grants or
-contracts to provide financial support for any further system integration
-efforts.
+Farsight has been very generous in making architectural changes to the new (and
+soon-to-be publicly released ) **Trident** portal system that enable DIMS
+component integration with Trident. The DIMS team has been working with
+Farsight to facilitate red team application assessment that will help improve
+Trident.
 
 
 .. _piscesnw:
@@ -100,7 +110,7 @@ Other Security Companies
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 Conversations have taken place with other "stealth-mode" computer security
-companies, both in Washington state and other states. Because of non-disclosure
+companies, both in Washington state and elsewhere. Because of non-disclosure
 agreements, they will not be directly named here. The discussions have involved
 the possibility of using and contributing back to the DIMS open source code
 products, using them to complement internally-developed commercial products
@@ -108,4 +118,6 @@ and services, and/or implementing custom deployments of DIMS+Trident
 components for customers to use in forming and operating trusted information
 sharing and security operations. Possible partnership between several of
 these companies is on the table, which could greatly accelerate continued
-development of capabilities produced under the DIMS contract.
+development of products resulting from the DIMS contract.
+
+.. [MBLT13] Douglas Maughan, David Balenson, Ulf Lindqvist, and Zachary Tudor. Crossing the "Valley of Death": Transitioning Cybersecurity Research into Practice. IEEE Security & Privacy, 11(2):14–23, 2013.
