@@ -84,13 +84,15 @@ PISCES Northwest
 
 A not-for-profit entity known as the Public Infrastructure Security
 Collaboration and Exchange System (PISCES-NW, for "North West") was recently
-formed. The Board of Directors has submitted a proposal to DHS to extend a
-regional SLTT security monitoring project (formerly known as "PRISEM").  Under
+formed. The Board of Directors is seeking grant funding to extend a
+regional SLTT security monitoring project (formerly known as the Public
+Regional Information Security Event Monitoring project, or "PRISEM").  Under
 this proposal, the PI will be engaged for a limited time in the initial phase
 as a sub-contractor, focused on assisting with implementation of selected DIMS
 open source products as requested by PISCES-NW. One of the PISCES-NW project's
 objectives is to integrate DHS S&T-funded research products, which fits in line
-with values and objectives described in Section :ref:`introduction`.
+with values and objectives described in Sections :ref:`introduction`
+and :ref:`valueproposition`.
 
 
 .. _cri:
