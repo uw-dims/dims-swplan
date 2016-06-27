@@ -128,11 +128,18 @@ Benefits per Cost
 The value of the DIMS products and methodology comes from altering the cost
 equation described by Vixie, which can be expressed this way:
 
-.. math:: CustomerValue = \cfrac{CustomerBenefit}{cost(OpenSource) + cost(Implementation)}
+.. Disable because ReadTheDocs doesn't support imgmath. Use screen capture image instead.
+.. .. math:: CustomerValue = \cfrac{CustomerBenefit}{cost(OpenSource) + cost(Implementation)}
+
+.. image:: images/cost-equation.png
+   :scale: 40%
+   :align: center
+
+..
 
 The benefit to customers is maximized by the ability to construct and operate a
 secure incident response monitoring platform, expand it with additional open
-source tools as needed, saving a large part of the :math:`2x` multiplier in
+source tools as needed, saving a large part of the *2x* multiplier in
 implementation cost in system administration and operations overhead cited by
 Vixie. We enable this by helping make a less complex, more transparent, source
 controlled, and easier to secure open source platform than may otherwise be
