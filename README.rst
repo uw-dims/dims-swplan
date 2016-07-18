@@ -1,17 +1,18 @@
 DIMS Commercialization and Open Source Licensing Plan
 =====================================================
 
-|docs|
-
-This document is found on `Read the Docs`_.
-
-.. _Read the Docs: https://dims-swplan.readthedocs.io
+* GitHub repo: https://github.com/uw-dims/dims-swplan/
+* Documentation: https://dims-swplan.readthedocs.io/
+* License: Berkeley Three Clause License
 
 Contact:
 --------
 
 .. sectionauthor:: David Dittrich dittrich@u.washington.edu
 
-.. include:: <docs/source/isonum.txt>
+.. |copy|   unicode:: U+000A9 .. COPYRIGHT SIGN
 
 Copyright |copy| 2014-2016 University of Washington. All rights reserved.
+
+.. include:: LICENSE.txt
+   :literal:
