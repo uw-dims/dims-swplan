@@ -254,7 +254,7 @@ latex_elements = {
 # [howto/manual]).
 latex_documents = [
     (master_doc, 'dims-swplan.tex',
-     u'DIMS Commercialization and Open Source Licensing Plan Documentation',
+     u'DIMS Commercialization and Open Source Licensing Plan',
      u'David Dittrich', 'manual'),
 ]
 
@@ -285,7 +285,7 @@ latex_logo = 'UW-logo.png'
 # (source start file, name, description, authors, manual section).
 man_pages = [
     (master_doc, 'dims-swplan',
-     u'DIMS Commercialization and Open Source Licensing Plan Documentation',
+     u'DIMS Commercialization and Open Source Licensing Plan',
      [u'David Dittrich'], 1)
 ]
 
@@ -300,7 +300,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
     (master_doc, 'dims-swplan',
-     u'DIMS Commercialization and Open Source Licensing Plan Documentation',
+     u'DIMS Commercialization and Open Source Licensing Plan',
      'David Dittrich',
      'dims-swplan',
      'Commercialization and Open Source Licensing plan for DIMS software and documentation.',
